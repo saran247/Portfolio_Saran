@@ -1,0 +1,70 @@
+#main {
+    margin-top: 50px;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+hr{
+    color: whitesmoke;
+}
+.progress_skill{
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+}
+.heading_skill{
+    margin: 15px;
+    color: white;
+    text-align: left;
+    font-size: large;
+    text-align: center;
+}
+.head_skill{
+    color: white;
+    margin: 10px;
+    font-size: medium;
+}
+.other{
+    background-image: linear-gradient(to right, #ffff8d, #fff15c, #ffde21, #ffc400);
+    color: black;
+    font-weight: bold;
+}
+.langs{
+    background-image: linear-gradient(to right, #ff9886, #ff725d, #ff523f, #ff1100);
+    color: white;
+    font-weight: bold; 
+}
+.web{
+    background-image: linear-gradient(to right, #c8ff76, #b4ff4c, #8cff00, #6fb326);
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+@keyframes progressAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        @keyframes progressAnimation {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--width);
+    }
+}
+
+/* Apply the animation to the progress bar */
+.progress-bar {
+    width: 0; /* Initial width */
+    animation: progressAnimation 2s ease-in-out forwards;
+} /* Final width as per your progress bar */
+    }
+}
+
+/* Apply the animation to the progress bar */
+.progress-bar {
+    width: 0; /* Initial width */
+    animation: progressAnimation 2s ease-in-out forwards;
+}

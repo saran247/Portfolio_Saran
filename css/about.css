@@ -1,0 +1,27 @@
+/* #main{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom:5% ;
+    height: auto; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+#About{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.815);
+    margin: 5%;
+}
+.heading{
+    font-size:x-large;
+    text-shadow: 4px 4px 4px  black;
+    text-align: center;
+}
+.content{
+    font-size: large;
+    text-shadow: 4px 4px 4px  black;
+    text-align: justify;
+}
+     */
