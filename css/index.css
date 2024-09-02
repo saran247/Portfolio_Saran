@@ -25,12 +25,8 @@
     border-style: none;
     margin: 10px;
     padding: 10px;
-<<<<<<< HEAD
     font-weight: bolder;
     font-size:large;
-=======
-    font-weight: 500;
->>>>>>> 34815fafdc83230b5540c34f4291e91f66231f05
     color: black;
     box-shadow: 5px 5px 5px black;
     border-radius: 20px;
@@ -59,14 +55,9 @@ box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
     font-size: large;
 }
 .desc_head{
-<<<<<<< HEAD
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 15px;
-=======
-    font-weight: 500;
-    margin-bottom: 10px;
->>>>>>> 34815fafdc83230b5540c34f4291e91f66231f05
     /* text-decoration: underline white; */
 }
 hr{
