@@ -92,6 +92,9 @@ nav{
     filter: grayscale(60%);
 
 }
+a {
+    text-decoration: none; 
+}
 
 .con_img:hover{
     transform: scale(1.2);

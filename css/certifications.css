@@ -24,23 +24,8 @@ hr{
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.3s ease-in-out;
-    animation: fadeInBounce 1.8s ease-out forwards;
+}
 
-}
-@keyframes fadeInBounce {
-    0% {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    60% {
-        opacity: 1;
-        transform: translateY(10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 .card:hover{
     background-color: rgb(255, 255, 255);
     transform: scale(1.1);
@@ -65,16 +50,19 @@ hr{
     height: 40px;
     border: none;
 
-    font-weight: bolder;
+    font-weight: bold;
     padding: 10px;
-    font-size: medium;
+    font-size: small;
     color: black;
     box-shadow: 5px 5px 5px black;
-    border-radius: 20px;
+    border-radius: 15px;
     background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
     background-size: 300% 100%;
     transition: all 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto;
 }
+
 
 .pro_but:hover {
     background-position: 100% 0;

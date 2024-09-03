@@ -29,7 +29,7 @@
     font-size:large;
     color: black;
     box-shadow: 5px 5px 5px black;
-    border-radius: 20px;
+    border-radius: 15px;
     background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
     background-size: 300% 100%;
     transition: all 0.2s ease-in-out;

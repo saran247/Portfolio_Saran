@@ -14,20 +14,7 @@ hr{
     margin-bottom: 30px;
 }
 
-@keyframes fadeInBounce {
-    0% {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    60% {
-        opacity: 1;
-        transform: translateY(10px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 
 .pro {
     background-color: rgba(255, 255, 255, 0.856);
@@ -37,11 +24,12 @@ hr{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    animation: fadeInBounce 1.8s ease-out forwards;
+    transition: all 0.2s ease-in-out;
 }
 
 .pro:hover {
     background-color: rgb(255, 255, 255);
+    transform: scale(1.1);
     box-shadow: 2px 2px 15px rgb(255, 174, 0);
 }
 
@@ -73,7 +61,7 @@ hr{
 }
 
 .pro_but {
-    width: 150px;
+    width: 130px;
     height: 40px;
     padding: 10px;
     align-self: center;
@@ -81,13 +69,15 @@ hr{
     font-weight: bolder;
     padding: 10px;
     margin-bottom: 10px;
-    font-size: medium;
+    font-size: small;
     color: black;
     box-shadow: 5px 5px 5px black;
-    border-radius: 20px;
+    border-radius: 15px;
     background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
     background-size: 300% 100%;
     transition: all 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto; 
 }
 
 .pro_but:hover {
