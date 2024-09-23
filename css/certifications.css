@@ -16,7 +16,7 @@ hr{
 
 .card {
     background-color: rgba(255, 255, 255, 0.856);
-    height: 400px;
+    height: 420px;
     width: 250px;
     margin: 10px;
     box-shadow: 2px 2px 15px greenyellow;
@@ -70,3 +70,6 @@ hr{
     transform: scale(1.1);
     box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 }
+/* .card-text{
+    font-size: small;
+} */
