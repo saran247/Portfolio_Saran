@@ -36,6 +36,7 @@ hr{
 .card-body{
     height: 200px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .card-text{
     text-align: justify;

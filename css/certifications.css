@@ -24,6 +24,7 @@ hr{
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .card:hover{
