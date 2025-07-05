@@ -1,91 +1,114 @@
 #main {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-.heading{
-    color: white;
-    text-align: center;
+.heading {
+  color: white;
+  text-align: center;
 }
-hr{
-    color: whitesmoke;
+hr {
+  color: whitesmoke;
 }
 .projects {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
-
-
 .pro {
-    background-color: rgba(255, 255, 255, 0.856);
-    min-height: 100px;
-    width: 250px;
-    box-shadow: 2px 2px 15px greenyellow;
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    transition: all 0.2s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.856);
+  min-height: 100px;
+  width: 250px;
+  box-shadow: 2px 2px 15px greenyellow;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 .pro:hover {
-    background-color: rgb(255, 255, 255);
-    transform: scale(1.1);
-    box-shadow: 2px 2px 15px rgb(255, 174, 0);
-}
-
-.card-body{
-    height: 200px;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-.card-text{
-    text-align: justify;
-}
-.card-img-top {
-    min-height: 150px;
-    object-fit:fill; 
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 15px rgb(255, 174, 0);
 }
 
 .card-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
-.card-title{
-    font-weight: bold;
-    font-size:medium;
+.card-text {
+  text-align: justify;
 }
-.desc_title{
-    font-weight: 600;
-    font-size:medium;
+.card-img-top {
+  min-height: 150px;
+  object-fit: fill;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title {
+  font-weight: bold;
+  font-size: medium;
+}
+.desc_title {
+  font-weight: 600;
+  font-size: medium;
 }
 
 .pro_but {
-    width: 130px;
-    height: 40px;
-    padding: 10px;
-    align-self: center;
-    border: none;
-    font-weight: bolder;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: small;
-    color: black;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 15px;
-    background-image: linear-gradient(to right, #05ff65, #e5ff00, #ff0000, #ff7300);
-    background-size: 300% 100%;
-    transition: all 0.2s ease-in-out;
-    display: block;
-    margin: 0 auto; 
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  align-self: center;
+  border: none;
+  font-weight: bolder;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: small;
+  color: black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #05ff65,
+    #e5ff00,
+    #ff0000,
+    #ff7300
+  );
+  background-size: 300% 100%;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+.pro_but-stealth {
+  width: 130px;
+  height: 40px;
+  padding: 10px;
+  align-self: center;
+  border: none;
+  font-weight: bolder;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: small;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+  background-color: #aaa;
+  background-size: 300% 100%;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+  cursor: not-allowed;
+  position: relative;
 }
 
 .pro_but:hover {
-    background-position: 100% 0;
-    color: white;
-    transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
+  background-position: 100% 0;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(83, 176, 57, 0.75);
 }
-
-
